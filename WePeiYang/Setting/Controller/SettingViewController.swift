@@ -75,7 +75,7 @@ class SettingViewController: UITableViewController {
             self.presentViewController(alert, animated: true, completion: nil)
             
         } else {
-            let loginVC = LoginViewController(nibName: nil, bundle: nil)
+            let loginVC = LoginViewController(nibName: "LoginViewController", bundle: nil)
             self.presentViewController(loginVC, animated: true, completion: nil)
         }
         
@@ -232,7 +232,7 @@ class SettingViewController: UITableViewController {
         case 2:
             switch row {
             case 0:
-                let aboutVC = AboutViewController(nibName: nil, bundle: nil)
+                let aboutVC = AboutViewController(nibName: "AboutViewController", bundle: nil)
                 aboutVC.hidesBottomBarWhenPushed = true
                 self.navigationController?.showViewController(aboutVC, sender: nil)
             case 1:
