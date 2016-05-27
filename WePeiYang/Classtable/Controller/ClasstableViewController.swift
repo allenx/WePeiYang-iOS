@@ -87,17 +87,19 @@ class ClasstableViewController: UIViewController, ClassCellViewDelegate {
                 }
             })
         } else {
-            let loginVC = LoginViewController(nibName: nil, bundle: nil)
+            let loginVC = LoginViewController(nibName: "LoginViewController", bundle: nil)
             self.presentViewController(loginVC, animated: true, completion: nil)
         }
     }
     
     private func refresh() {
         MsgDisplay.showLoading()
+        
         ClasstableDataManager.getClasstableData({(data, termStart) in
             MsgDisplay.dismiss()
             wpyCacheManager.removeCacheDataForKey(CLASSTABLE_COLOR_CONFIG_KEY)
             self.dataArr = Mapper<ClassData>().mapArray(data)!
+            print(self.dataArr.count)
             self.updateView(self.view.bounds.size)
             wpyCacheManager.saveGroupCacheData(data, withKey: CLASSTABLE_CACHE_KEY)
             wpyCacheManager.saveGroupCacheData(termStart, withKey: CLASSTABLE_TERM_START_KEY)
@@ -192,7 +194,7 @@ class ClasstableViewController: UIViewController, ClassCellViewDelegate {
                 }
             }
         }
-        
+
         wpyCacheManager.saveCacheData(colorConfig, withKey: CLASSTABLE_COLOR_CONFIG_KEY)
     }
     
