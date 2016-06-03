@@ -12,6 +12,7 @@ import BlocksKit
 import CoreSpotlight
 
 let TOUCH_ID_KEY = "touchIdEnabled"
+let BACKGROUND_BLUR_KEY = "backgroundBlurGPA"
 let ALLOW_SPOTLIGHT_KEY = "allowSpotlightIndex"
 
 class SettingViewController: UITableViewController {
@@ -92,7 +93,7 @@ class SettingViewController: UITableViewController {
         case 0:
             return 1
         case 1:
-            return 2
+            return 3
         case 2:
             return 2
         default:
@@ -156,6 +157,20 @@ class SettingViewController: UITableViewController {
                 cell.accessoryView = touchIDSwitch
                 cell.selectionStyle = .None
             case 1:
+                cell.textLabel?.text = "后台时模糊 GPA 信息"
+                cell.accessoryView = {
+                    let cellSwitch = UISwitch()
+                    if NSUserDefaults().objectForKey(BACKGROUND_BLUR_KEY) == nil {
+                        NSUserDefaults().setBool(false, forKey: BACKGROUND_BLUR_KEY)
+                    }
+                    cellSwitch.on = NSUserDefaults().boolForKey(BACKGROUND_BLUR_KEY)
+                    cellSwitch.bk_addEventHandler({ handler in
+                        NSUserDefaults().setBool(cellSwitch.on, forKey: BACKGROUND_BLUR_KEY)
+                        }, forControlEvents: .ValueChanged)
+                    return cellSwitch
+                    }()
+                cell.selectionStyle = .None
+            case 2:
                 cell.textLabel?.text = "允许 Spotlight 索引"
                 let spotlightSwitch = UISwitch()
                 let defaults = NSUserDefaults()
