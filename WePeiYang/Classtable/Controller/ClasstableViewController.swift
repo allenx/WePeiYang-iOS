@@ -181,6 +181,7 @@ class ClasstableViewController: UIViewController, ClassCellViewDelegate {
                 if tmpClass.weekStart <= currentWeek && tmpClass.weekEnd >= currentWeek {
                     // 单双周判断
                     // MARK: - WARNING 单双周可能有课不一样
+                    
                     if (tmpArrange.week == "单双周") || (currentWeek % 2 == 0 && tmpArrange.week == "双周") || (currentWeek % 2 == 1 && tmpArrange.week == "单周") {
                         classCell.backgroundColor = classBgColor
                     } else {

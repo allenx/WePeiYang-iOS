@@ -20,6 +20,7 @@
 		188842361846E6F4007B92CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 188842341846E6F4007B92CB /* InfoPlist.strings */; };
 		188842381846E6F4007B92CB /* WePeiYangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188842371846E6F4007B92CB /* WePeiYangTests.m */; };
 		188842A81846FBEB007B92CB /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188842A71846FBEB007B92CB /* Social.framework */; };
+		B193E4401CF878BB00D509F6 /* GPAClassData.m in Sources */ = {isa = PBXBuildFile; fileRef = B193E43F1CF878BB00D509F6 /* GPAClassData.m */; };
 		E5AB166EFF8F3492EAB60C4F /* Pods_WePeiYang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C30F0568A6ECD0AA3C5CD6 /* Pods_WePeiYang.framework */; };
 		E90105541C3B994E002901AC /* GPATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90105381C3B994E002901AC /* GPATableViewController.m */; };
 		E90105551C3B994E002901AC /* GPATableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E901053C1C3B994E002901AC /* GPATableViewCell.m */; };
@@ -60,7 +61,6 @@
 		E949E3E01C43F3A900A5212B /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E949E3DF1C43F3A900A5212B /* SettingViewController.swift */; };
 		E94AC15F1C737B6300C82C4E /* ClassCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94AC15E1C737B6300C82C4E /* ClassCellView.swift */; };
 		E94B1FCF1BF79A5000520536 /* GPAData.m in Sources */ = {isa = PBXBuildFile; fileRef = E94B1FCE1BF79A5000520536 /* GPAData.m */; };
-		E94B1FD21BF79BF900520536 /* GPAClassData.m in Sources */ = {isa = PBXBuildFile; fileRef = E94B1FD11BF79BF900520536 /* GPAClassData.m */; };
 		E94B1FE51BF7AE8800520536 /* NSString+Hashes.m in Sources */ = {isa = PBXBuildFile; fileRef = E94B1FDC1BF7AE8800520536 /* NSString+Hashes.m */; };
 		E94B1FE61BF7AE8800520536 /* SolaFoundationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E94B1FDE1BF7AE8800520536 /* SolaFoundationKit.m */; };
 		E94B1FE71BF7AE8800520536 /* SolaInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = E94B1FE01BF7AE8800520536 /* SolaInstance.m */; };
@@ -190,6 +190,8 @@
 		69BD443D9F35722874748E77 /* Pods_WePeiYangTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WePeiYangTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C2F1FF99AD3975DD8C2F52D /* Pods-WePeiYangTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WePeiYangTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WePeiYangTests/Pods-WePeiYangTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7D625594C2CB3A80AC2395D /* Pods-WePeiYang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WePeiYang.release.xcconfig"; path = "Pods/Target Support Files/Pods-WePeiYang/Pods-WePeiYang.release.xcconfig"; sourceTree = "<group>"; };
+		B193E43E1CF878BB00D509F6 /* GPAClassData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPAClassData.h; path = "../../../../Desktop/WePeiYang-iOS/WePeiYang/GPA/Model/GPAClassData.h"; sourceTree = "<group>"; };
+		B193E43F1CF878BB00D509F6 /* GPAClassData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPAClassData.m; path = "../../../../Desktop/WePeiYang-iOS/WePeiYang/GPA/Model/GPAClassData.m"; sourceTree = "<group>"; };
 		D1FCAABA95955FF177696657 /* Pods-WePeiYang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WePeiYang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WePeiYang/Pods-WePeiYang.debug.xcconfig"; sourceTree = "<group>"; };
 		E90105371C3B994E002901AC /* GPATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPATableViewController.h; sourceTree = "<group>"; };
 		E90105381C3B994E002901AC /* GPATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPATableViewController.m; sourceTree = "<group>"; };
@@ -244,8 +246,6 @@
 		E94AC15E1C737B6300C82C4E /* ClassCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClassCellView.swift; path = Classtable/View/ClassCellView.swift; sourceTree = "<group>"; };
 		E94B1FCD1BF79A5000520536 /* GPAData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPAData.h; path = "../../Models/Data Model/GPAData.h"; sourceTree = "<group>"; };
 		E94B1FCE1BF79A5000520536 /* GPAData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPAData.m; path = "../../Models/Data Model/GPAData.m"; sourceTree = "<group>"; };
-		E94B1FD01BF79BF900520536 /* GPAClassData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPAClassData.h; path = "../../Models/Data Model/GPAClassData.h"; sourceTree = "<group>"; };
-		E94B1FD11BF79BF900520536 /* GPAClassData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPAClassData.m; path = "../../Models/Data Model/GPAClassData.m"; sourceTree = "<group>"; };
 		E94B1FDB1BF7AE8800520536 /* NSString+Hashes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hashes.h"; sourceTree = "<group>"; };
 		E94B1FDC1BF7AE8800520536 /* NSString+Hashes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hashes.m"; sourceTree = "<group>"; };
 		E94B1FDD1BF7AE8800520536 /* SolaFoundationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolaFoundationKit.h; sourceTree = "<group>"; };
@@ -522,8 +522,8 @@
 			children = (
 				E94B1FCD1BF79A5000520536 /* GPAData.h */,
 				E94B1FCE1BF79A5000520536 /* GPAData.m */,
-				E94B1FD01BF79BF900520536 /* GPAClassData.h */,
-				E94B1FD11BF79BF900520536 /* GPAClassData.m */,
+				B193E43E1CF878BB00D509F6 /* GPAClassData.h */,
+				B193E43F1CF878BB00D509F6 /* GPAClassData.m */,
 				E9E8B7A21BF9CC46001F7FA8 /* GPAStat.h */,
 				E9E8B7A31BF9CC46001F7FA8 /* GPAStat.m */,
 			);
@@ -1428,7 +1428,6 @@
 				E90105541C3B994E002901AC /* GPATableViewController.m in Sources */,
 				E9AF6BCD1A7CFCE2008B5214 /* wpyDeviceStatus.m in Sources */,
 				E91A9B251C4040E300ADABA0 /* HomeWeatherCell.swift in Sources */,
-				E94B1FD21BF79BF900520536 /* GPAClassData.m in Sources */,
 				E98DF69A1C5D044B003943A4 /* MicroservicesTableViewController.swift in Sources */,
 				E94B1FE81BF7AE8800520536 /* SolaSessionManager.m in Sources */,
 				E98DF6921C5CEDE0003943A4 /* BindTjuViewController.swift in Sources */,
@@ -1472,6 +1471,7 @@
 				E95459341CCF403D002B5297 /* LibraryTableViewCell.swift in Sources */,
 				E9AF6BCF1A7CFCE2008B5214 /* data.m in Sources */,
 				E9AF6BDD1A7CFD4D008B5214 /* twtSecretKeys.m in Sources */,
+				B193E4401CF878BB00D509F6 /* GPAClassData.m in Sources */,
 				E94B1FE91BF7AE8800520536 /* twtSDK.m in Sources */,
 				E97336581C7213A200ACA06B /* LostFoundPostForm.swift in Sources */,
 				E9A48CDB1A6FE9E2001D8420 /* OpenInSafariActivity.m in Sources */,
