@@ -8,6 +8,7 @@
 
 import UIKit
 import SwiftyJSON
+import BlocksKit
 
 class DevSessionViewController: UIViewController {
     
@@ -21,6 +22,13 @@ class DevSessionViewController: UIViewController {
         // Do any additional setup after loading the view.
         self.navigationItem.titleView = segmentedControl
         self.navigationController?.navigationBar.topItem?.title = ""
+        let shareBtn = UIBarButtonItem().bk_initWithBarButtonSystemItem(.Action, handler: { handler in
+            let pasteBoard = UIPasteboard.generalPasteboard()
+            pasteBoard.string = self.segmentedControl.selectedSegmentIndex == 0 ? "\(JSON(self.sessionRecord!.parameters!))" : "\(JSON(self.sessionRecord!.response!))"
+            MsgDisplay.showSuccessMsg("已复制到剪切板")
+        }) as! UIBarButtonItem
+        self.navigationItem.rightBarButtonItem = shareBtn
+        
         self.showJSONCode(JSON(sessionRecord!.parameters!))
     }
 

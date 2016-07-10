@@ -23,13 +23,13 @@ class DevSessionRecorder: NSObject {
         }
         
         do {
-            try database.executeUpdate("create table SessionRecord(id, url, type, parameters, response)", values: nil)
+            try database.executeUpdate("CREATE TABLE SessionRecord(id, url, type, parameters, response)", values: nil)
         } catch let error as NSError {
             print("Failed: \(error.localizedDescription)")
         }
         
         do {
-            try database.executeUpdate("insert into SessionRecord values (?, ?, ?, ?, ?)", values: [Int(NSDate().timeIntervalSince1970), url, type, NSKeyedArchiver.archivedDataWithRootObject(parameters), NSKeyedArchiver.archivedDataWithRootObject(response)])
+            try database.executeUpdate("INSERT INTO SessionRecord VALUES (?, ?, ?, ?, ?)", values: [Int(NSDate().timeIntervalSince1970), url, type, NSKeyedArchiver.archivedDataWithRootObject(parameters), NSKeyedArchiver.archivedDataWithRootObject(response)])
         } catch let error as NSError {
             print("Failed: \(error.localizedDescription)")
         }
@@ -48,7 +48,7 @@ class DevSessionRecorder: NSObject {
         
         var dataArr: [DevSessionRecord] = []
         do {
-            let result = try database.executeQuery("select * from SessionRecord", values: nil)
+            let result = try database.executeQuery("SELECT * FROM SessionRecord ORDER BY id DESC", values: nil)
             while result.next() {
                 let item = DevSessionRecord(id: Int(result.intForColumn("id")), url: result.stringForColumn("url"), type: Int(result.intForColumn("type")), parameters: (NSKeyedUnarchiver.unarchiveObjectWithData(result.dataForColumn("parameters")) as! [String: AnyObject]), response: NSKeyedUnarchiver.unarchiveObjectWithData(result.dataForColumn("response"))!)
                 dataArr.append(item)
@@ -71,7 +71,7 @@ class DevSessionRecorder: NSObject {
         }
         
         do {
-            try database.executeUpdate("delete from SessionRecord where id=?", values: [record.id!])
+            try database.executeUpdate("DELETE FROM SessionRecord WHERE id=?", values: [record.id!])
         } catch let error as NSError {
             print("Failed: \(error.localizedDescription)")
         }

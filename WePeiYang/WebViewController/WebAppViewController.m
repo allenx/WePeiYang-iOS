@@ -38,9 +38,7 @@
 }
 
 - (instancetype)initWithURL:(NSURL*)pageURL {
-    //NSURLRequest *request = [[NSURLRequest alloc] initWithURL:pageURL cachePolicy:NSDefaultRunLoopMode timeoutInterval:10];
     return [self initWithURLRequest:[NSURLRequest requestWithURL:pageURL]];
-    //return [self initWithURLRequest:request];
 }
 
 - (instancetype)initWithURLRequest:(NSURLRequest*)request {
@@ -53,7 +51,6 @@
 
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    [MsgDisplay showLoading];
     _customPreferredStatusBarStyle = UIStatusBarStyleLightContent;
     if (self.navigationController) {
         [self.navigationController setNavigationBarHidden:YES animated:animated];
@@ -67,6 +64,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     //self.navigationController.interactivePopGestureRecognizer.enabled = NO;
     WKWebViewConfiguration *config = [[WKWebViewConfiguration alloc] init];
     config.selectionGranularity = WKSelectionGranularityCharacter;
@@ -92,7 +90,6 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(refreshNotificationReceived) name:@"Login" object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(backNotificationReceived) name:@"LoginCancelled" object:nil];
     
-
     _bridge = [WKWebViewJavascriptBridge bridgeForWebView:_wkWebView];
     [_bridge registerHandler:@"tokenHandler_iOS" handler:^(id data, WVJBResponseCallback responseCallback) {
         if ([AccountManager tokenExists]) {
@@ -149,8 +146,7 @@
 }
 
 - (void)dealloc {
-    [_wkWebView removeObserver:self forKeyPath:@"loading"]; 
-    NSLog(@"Deallocked");
+    [_wkWebView removeObserver:self forKeyPath:@"loading"];
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSString *,id> *)change context:(void *)context {
@@ -160,9 +156,6 @@
             NSLog(@"Loading finished");
             [_wkWebView evaluateJavaScript:@"document.documentElement.style.webkitUserSelect='none';" completionHandler:nil];
             [backBtn removeFromSuperview];
-            [MsgDisplay dismiss];
-        } else {
-            [MsgDisplay showLoading];
         }
     }
 }
@@ -217,12 +210,15 @@
 }
 
 - (void)webView:(WKWebView *)webView didStartProvisionalNavigation:(null_unspecified WKNavigation *)navigation{
+    
 }
 
 - (void)webView:(WKWebView *)webView didFinishNavigation: (WKNavigation *)navigation{
+    
 }
 
 - (void)webView:(WKWebView *)webView didFailNavigation: (WKNavigation *)navigation withError:(NSError *)error {
+    
 }
 
 /*

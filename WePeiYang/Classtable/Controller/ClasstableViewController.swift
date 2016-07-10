@@ -87,19 +87,17 @@ class ClasstableViewController: UIViewController, ClassCellViewDelegate {
                 }
             })
         } else {
-            let loginVC = LoginViewController(nibName: "LoginViewController", bundle: nil)
+            let loginVC = LoginViewController(nibName: nil, bundle: nil)
             self.presentViewController(loginVC, animated: true, completion: nil)
         }
     }
     
     private func refresh() {
         MsgDisplay.showLoading()
-        
         ClasstableDataManager.getClasstableData({(data, termStart) in
             MsgDisplay.dismiss()
             wpyCacheManager.removeCacheDataForKey(CLASSTABLE_COLOR_CONFIG_KEY)
             self.dataArr = Mapper<ClassData>().mapArray(data)!
-            print(self.dataArr.count)
             self.updateView(self.view.bounds.size)
             wpyCacheManager.saveGroupCacheData(data, withKey: CLASSTABLE_CACHE_KEY)
             wpyCacheManager.saveGroupCacheData(termStart, withKey: CLASSTABLE_TERM_START_KEY)
@@ -181,7 +179,6 @@ class ClasstableViewController: UIViewController, ClassCellViewDelegate {
                 if tmpClass.weekStart <= currentWeek && tmpClass.weekEnd >= currentWeek {
                     // 单双周判断
                     // MARK: - WARNING 单双周可能有课不一样
-                    
                     if (tmpArrange.week == "单双周") || (currentWeek % 2 == 0 && tmpArrange.week == "双周") || (currentWeek % 2 == 1 && tmpArrange.week == "单周") {
                         classCell.backgroundColor = classBgColor
                     } else {
@@ -195,7 +192,7 @@ class ClasstableViewController: UIViewController, ClassCellViewDelegate {
                 }
             }
         }
-
+        
         wpyCacheManager.saveCacheData(colorConfig, withKey: CLASSTABLE_COLOR_CONFIG_KEY)
     }
     
