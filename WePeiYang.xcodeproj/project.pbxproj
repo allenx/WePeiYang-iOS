@@ -21,20 +21,34 @@
 		188842381846E6F4007B92CB /* WePeiYangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188842371846E6F4007B92CB /* WePeiYangTests.m */; };
 		188842A81846FBEB007B92CB /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188842A71846FBEB007B92CB /* Social.framework */; };
 		43827E366678E90D3957EAC3 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FDB6280259E22DE141F518E /* Pods.framework */; };
-		B1C4F64E1D543DD0000CD0D8 /* BicycleServiceInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C4F6431D543DD0000CD0D8 /* BicycleServiceInfoController.swift */; };
-		B1C4F64F1D543DD0000CD0D8 /* BicycleServiceInfoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1C4F6441D543DD0000CD0D8 /* BicycleServiceInfoController.xib */; };
-		B1C4F6501D543DD0000CD0D8 /* BicycleServiceMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C4F6451D543DD0000CD0D8 /* BicycleServiceMapController.swift */; };
-		B1C4F6511D543DD0000CD0D8 /* BicycleServiceNotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C4F6461D543DD0000CD0D8 /* BicycleServiceNotificationCell.swift */; };
-		B1C4F6521D543DD0000CD0D8 /* BicycleServiceNotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C4F6471D543DD0000CD0D8 /* BicycleServiceNotificationController.swift */; };
-		B1C4F6531D543DD0000CD0D8 /* BicycleServiceNotificationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1C4F6481D543DD0000CD0D8 /* BicycleServiceNotificationController.xib */; };
-		B1C4F6541D543DD0000CD0D8 /* BicycleServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C4F64A1D543DD0000CD0D8 /* BicycleServiceViewController.m */; };
-		B1C4F6551D543DD0000CD0D8 /* ParkingSpots.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1C4F64C1D543DD0000CD0D8 /* ParkingSpots.plist */; };
-		B1C4F6561D543DD0000CD0D8 /* ParkingSpots.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C4F64D1D543DD0000CD0D8 /* ParkingSpots.swift */; };
-		B1C4F6591D543EB9000CD0D8 /* PartyServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C4F6581D543EB9000CD0D8 /* PartyServiceController.swift */; };
-		B1C4F65B1D543EF1000CD0D8 /* SpotDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C4F65A1D543EF1000CD0D8 /* SpotDetailsView.swift */; };
-		B1C4F65D1D548377000CD0D8 /* Applicant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C4F65C1D548377000CD0D8 /* Applicant.swift */; };
-		B1C4F65F1D548E62000CD0D8 /* Courses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C4F65E1D548E62000CD0D8 /* Courses.swift */; };
-		B1C4F6611D5584EB000CD0D8 /* PartyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C4F6601D5584EB000CD0D8 /* PartyAPI.swift */; };
+		B1C4F64E1D543DD0000CD0D8 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B1C4F64F1D543DD0000CD0D8 /* (null) in Resources */ = {isa = PBXBuildFile; };
+		B1C4F6501D543DD0000CD0D8 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B1C4F6511D543DD0000CD0D8 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B1C4F6521D543DD0000CD0D8 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B1C4F6531D543DD0000CD0D8 /* (null) in Resources */ = {isa = PBXBuildFile; };
+		B1C4F6541D543DD0000CD0D8 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B1C4F6551D543DD0000CD0D8 /* (null) in Resources */ = {isa = PBXBuildFile; };
+		B1C4F6561D543DD0000CD0D8 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B1C4F6591D543EB9000CD0D8 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B1C4F65B1D543EF1000CD0D8 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B1C4F65D1D548377000CD0D8 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B1C4F65F1D548E62000CD0D8 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B1C4F6611D5584EB000CD0D8 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B1C4F66D1D572C52000CD0D8 /* BicycleServiceInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C4F6621D572C52000CD0D8 /* BicycleServiceInfoController.swift */; };
+		B1C4F66E1D572C52000CD0D8 /* BicycleServiceInfoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1C4F6631D572C52000CD0D8 /* BicycleServiceInfoController.xib */; };
+		B1C4F66F1D572C52000CD0D8 /* BicycleServiceMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C4F6641D572C52000CD0D8 /* BicycleServiceMapController.swift */; };
+		B1C4F6701D572C52000CD0D8 /* BicycleServiceNotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C4F6651D572C52000CD0D8 /* BicycleServiceNotificationCell.swift */; };
+		B1C4F6711D572C52000CD0D8 /* BicycleServiceNotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C4F6661D572C52000CD0D8 /* BicycleServiceNotificationController.swift */; };
+		B1C4F6721D572C52000CD0D8 /* BicycleServiceNotificationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1C4F6671D572C52000CD0D8 /* BicycleServiceNotificationController.xib */; };
+		B1C4F6731D572C52000CD0D8 /* BicycleServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C4F6691D572C52000CD0D8 /* BicycleServiceViewController.m */; };
+		B1C4F6741D572C52000CD0D8 /* ParkingSpots.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1C4F66B1D572C52000CD0D8 /* ParkingSpots.plist */; };
+		B1C4F6751D572C52000CD0D8 /* ParkingSpots.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C4F66C1D572C52000CD0D8 /* ParkingSpots.swift */; };
+		B1C4F67A1D572C63000CD0D8 /* Applicant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C4F6761D572C63000CD0D8 /* Applicant.swift */; };
+		B1C4F67B1D572C63000CD0D8 /* Courses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C4F6771D572C63000CD0D8 /* Courses.swift */; };
+		B1C4F67C1D572C63000CD0D8 /* PartyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C4F6781D572C63000CD0D8 /* PartyAPI.swift */; };
+		B1C4F67D1D572C63000CD0D8 /* PartyServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C4F6791D572C63000CD0D8 /* PartyServiceController.swift */; };
+		B1C4F67F1D572D07000CD0D8 /* SpotDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C4F67E1D572D07000CD0D8 /* SpotDetailsView.swift */; };
 		E5AB166EFF8F3492EAB60C4F /* Pods_WePeiYang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C30F0568A6ECD0AA3C5CD6 /* Pods_WePeiYang.framework */; };
 		E90105541C3B994E002901AC /* GPATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90105381C3B994E002901AC /* GPATableViewController.m */; };
 		E90105551C3B994E002901AC /* GPATableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E901053C1C3B994E002901AC /* GPATableViewCell.m */; };
@@ -215,10 +229,21 @@
 		69BD443D9F35722874748E77 /* Pods_WePeiYangTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WePeiYangTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C2F1FF99AD3975DD8C2F52D /* Pods-WePeiYangTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WePeiYangTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WePeiYangTests/Pods-WePeiYangTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7D625594C2CB3A80AC2395D /* Pods-WePeiYang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WePeiYang.release.xcconfig"; path = "Pods/Target Support Files/Pods-WePeiYang/Pods-WePeiYang.release.xcconfig"; sourceTree = "<group>"; };
-		B14D89A61D337ADC002CBC62 /* BicycleServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BicycleServiceViewController.h; sourceTree = "<group>"; };
-		B14D89A71D337ADC002CBC62 /* BicycleServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BicycleServiceViewController.m; sourceTree = "<group>"; };
-		B19A3D171D3244F200DA061A /* BicycleServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BicycleServiceController.swift; sourceTree = "<group>"; };
-		B19A3D191D32450500DA061A /* PartyServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyServiceController.swift; sourceTree = "<group>"; };
+		B1C4F6621D572C52000CD0D8 /* BicycleServiceInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BicycleServiceInfoController.swift; sourceTree = "<group>"; };
+		B1C4F6631D572C52000CD0D8 /* BicycleServiceInfoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BicycleServiceInfoController.xib; sourceTree = "<group>"; };
+		B1C4F6641D572C52000CD0D8 /* BicycleServiceMapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BicycleServiceMapController.swift; sourceTree = "<group>"; };
+		B1C4F6651D572C52000CD0D8 /* BicycleServiceNotificationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BicycleServiceNotificationCell.swift; sourceTree = "<group>"; };
+		B1C4F6661D572C52000CD0D8 /* BicycleServiceNotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BicycleServiceNotificationController.swift; sourceTree = "<group>"; };
+		B1C4F6671D572C52000CD0D8 /* BicycleServiceNotificationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BicycleServiceNotificationController.xib; sourceTree = "<group>"; };
+		B1C4F6681D572C52000CD0D8 /* BicycleServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BicycleServiceViewController.h; sourceTree = "<group>"; };
+		B1C4F6691D572C52000CD0D8 /* BicycleServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BicycleServiceViewController.m; sourceTree = "<group>"; };
+		B1C4F66B1D572C52000CD0D8 /* ParkingSpots.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ParkingSpots.plist; sourceTree = "<group>"; };
+		B1C4F66C1D572C52000CD0D8 /* ParkingSpots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingSpots.swift; sourceTree = "<group>"; };
+		B1C4F6761D572C63000CD0D8 /* Applicant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Applicant.swift; sourceTree = "<group>"; };
+		B1C4F6771D572C63000CD0D8 /* Courses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Courses.swift; sourceTree = "<group>"; };
+		B1C4F6781D572C63000CD0D8 /* PartyAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyAPI.swift; sourceTree = "<group>"; };
+		B1C4F6791D572C63000CD0D8 /* PartyServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyServiceController.swift; sourceTree = "<group>"; };
+		B1C4F67E1D572D07000CD0D8 /* SpotDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotDetailsView.swift; sourceTree = "<group>"; };
 		D1FCAABA95955FF177696657 /* Pods-WePeiYang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WePeiYang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WePeiYang/Pods-WePeiYang.debug.xcconfig"; sourceTree = "<group>"; };
 		E90105371C3B994E002901AC /* GPATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPATableViewController.h; sourceTree = "<group>"; };
 		E90105381C3B994E002901AC /* GPATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPATableViewController.m; sourceTree = "<group>"; };
@@ -544,38 +569,38 @@
 		B1C4F6421D543DD0000CD0D8 /* Bicycle */ = {
 			isa = PBXGroup;
 			children = (
-				B1C4F65A1D543EF1000CD0D8 /* SpotDetailsView.swift */,
-				B1C4F6431D543DD0000CD0D8 /* BicycleServiceInfoController.swift */,
-				B1C4F6441D543DD0000CD0D8 /* BicycleServiceInfoController.xib */,
-				B1C4F6451D543DD0000CD0D8 /* BicycleServiceMapController.swift */,
-				B1C4F6461D543DD0000CD0D8 /* BicycleServiceNotificationCell.swift */,
-				B1C4F6471D543DD0000CD0D8 /* BicycleServiceNotificationController.swift */,
-				B1C4F6481D543DD0000CD0D8 /* BicycleServiceNotificationController.xib */,
-				B1C4F6491D543DD0000CD0D8 /* BicycleServiceViewController.h */,
-				B1C4F64A1D543DD0000CD0D8 /* BicycleServiceViewController.m */,
-				B1C4F64B1D543DD0000CD0D8 /* Model */,
+				B1C4F67E1D572D07000CD0D8 /* SpotDetailsView.swift */,
+				B1C4F6621D572C52000CD0D8 /* BicycleServiceInfoController.swift */,
+				B1C4F6631D572C52000CD0D8 /* BicycleServiceInfoController.xib */,
+				B1C4F6641D572C52000CD0D8 /* BicycleServiceMapController.swift */,
+				B1C4F6651D572C52000CD0D8 /* BicycleServiceNotificationCell.swift */,
+				B1C4F6661D572C52000CD0D8 /* BicycleServiceNotificationController.swift */,
+				B1C4F6671D572C52000CD0D8 /* BicycleServiceNotificationController.xib */,
+				B1C4F6681D572C52000CD0D8 /* BicycleServiceViewController.h */,
+				B1C4F6691D572C52000CD0D8 /* BicycleServiceViewController.m */,
+				B1C4F66A1D572C52000CD0D8 /* Model */,
 			);
 			path = Bicycle;
-			sourceTree = "<group>";
-		};
-		B1C4F64B1D543DD0000CD0D8 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				B1C4F64C1D543DD0000CD0D8 /* ParkingSpots.plist */,
-				B1C4F64D1D543DD0000CD0D8 /* ParkingSpots.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		B1C4F6571D543EB9000CD0D8 /* Party */ = {
 			isa = PBXGroup;
 			children = (
-				B1C4F6581D543EB9000CD0D8 /* PartyServiceController.swift */,
-				B1C4F65C1D548377000CD0D8 /* Applicant.swift */,
-				B1C4F65E1D548E62000CD0D8 /* Courses.swift */,
-				B1C4F6601D5584EB000CD0D8 /* PartyAPI.swift */,
+				B1C4F6761D572C63000CD0D8 /* Applicant.swift */,
+				B1C4F6771D572C63000CD0D8 /* Courses.swift */,
+				B1C4F6781D572C63000CD0D8 /* PartyAPI.swift */,
+				B1C4F6791D572C63000CD0D8 /* PartyServiceController.swift */,
 			);
 			path = Party;
+			sourceTree = "<group>";
+		};
+		B1C4F66A1D572C52000CD0D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B1C4F66B1D572C52000CD0D8 /* ParkingSpots.plist */,
+				B1C4F66C1D572C52000CD0D8 /* ParkingSpots.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		E90105331C3B994E002901AC /* GPA */ = {
@@ -1386,7 +1411,7 @@
 			files = (
 				E92C7F431C6EF4590022857A /* NewsCommentTableViewCell.xib in Resources */,
 				E9D744071BF9AE38005F2EF9 /* Localizable.strings in Resources */,
-				B1C4F64F1D543DD0000CD0D8 /* BicycleServiceInfoController.xib in Resources */,
+				B1C4F64F1D543DD0000CD0D8 /* (null) in Resources */,
 				E95459351CCF403D002B5297 /* LibraryTableViewCell.xib in Resources */,
 				E98DF6F61C5DF5BF003943A4 /* SVWebViewControllerActivityChrome@2x.png in Resources */,
 				E98ACE1B1C4026780012C762 /* HomeNewsTableViewCell.xib in Resources */,
@@ -1401,16 +1426,18 @@
 				E98DF6F11C5DF5BF003943A4 /* SVWebViewController.bundle in Resources */,
 				E942BC7B1CACCCDE007A956C /* LostFoundTableViewCell.xib in Resources */,
 				E9D0522B1C66338900DFBDDA /* bridge.js in Resources */,
+				B1C4F66E1D572C52000CD0D8 /* BicycleServiceInfoController.xib in Resources */,
 				E9B972CC1C565290001E480E /* LoginViewController.xib in Resources */,
 				E9D744051BF9AE38005F2EF9 /* WePeiYang.entitlements in Resources */,
 				E91E51691D00820B00A5BED7 /* color-brewer.css in Resources */,
 				E9D744011BF9AE38005F2EF9 /* Launch Screen.xib in Resources */,
 				E98DF6FA1C5DF5BF003943A4 /* SVWebViewControllerActivitySafari@2x.png in Resources */,
 				E9AF6BD11A7CFCE2008B5214 /* bootstrap.css in Resources */,
-				B1C4F6531D543DD0000CD0D8 /* BicycleServiceNotificationController.xib in Resources */,
+				B1C4F6531D543DD0000CD0D8 /* (null) in Resources */,
 				E98DF6F31C5DF5BF003943A4 /* SVWebViewControllerActivityChrome-iPad.png in Resources */,
 				E98DF6EF1C5DF5BF003943A4 /* SVWebViewController.strings in Resources */,
 				E91E51651D007F0300A5BED7 /* highlight.js in Resources */,
+				B1C4F6741D572C52000CD0D8 /* ParkingSpots.plist in Resources */,
 				E91E51631D00529400A5BED7 /* DevSessionViewController.xib in Resources */,
 				E98DF6F41C5DF5BF003943A4 /* SVWebViewControllerActivityChrome-iPad@2x.png in Resources */,
 				E9BA7BB51C5A1550009A4E9A /* ClasstableViewController.xib in Resources */,
@@ -1419,9 +1446,10 @@
 				E90C139C1CAF74F700E1F353 /* HomeToolsCollectionViewCell.xib in Resources */,
 				E9D744061BF9AE38005F2EF9 /* InfoPlist.strings in Resources */,
 				E93701861C5CA97800C87E84 /* LibraryViewController.xib in Resources */,
+				B1C4F6721D572C52000CD0D8 /* BicycleServiceNotificationController.xib in Resources */,
 				E9941B411C15E30800626A56 /* jquery.min.js in Resources */,
 				E9AF6BD21A7CFCE2008B5214 /* bootstrap.min.js in Resources */,
-				B1C4F6551D543DD0000CD0D8 /* ParkingSpots.plist in Resources */,
+				B1C4F6551D543DD0000CD0D8 /* (null) in Resources */,
 				E98DF6F71C5DF5BF003943A4 /* SVWebViewControllerActivitySafari-iPad.png in Resources */,
 				E928084D1D14696F00E4380D /* StudySearchViewController.xib in Resources */,
 				E937018B1C5CCE6000C87E84 /* AboutViewController.xib in Resources */,
@@ -1584,45 +1612,49 @@
 			files = (
 				E9B972CB1C565290001E480E /* LoginViewController.swift in Sources */,
 				E925971D1CA62AD600D4E812 /* ToolsCollectionViewController.swift in Sources */,
-				B14D89A81D337ADC002CBC62 /* BicycleServiceViewController.m in Sources */,
 				E97704D01CD0A4DD0017A1CB /* WebAppViewController.m in Sources */,
 				E98DF6F91C5DF5BF003943A4 /* SVWebViewControllerActivitySafari.m in Sources */,
 				E90C139B1CAF74F700E1F353 /* HomeToolsCollectionViewCell.swift in Sources */,
 				E94B1FE61BF7AE8800520536 /* SolaFoundationKit.m in Sources */,
 				E95BDA851C4BF17E00EFC107 /* FeedbackForm.swift in Sources */,
+				B1C4F67F1D572D07000CD0D8 /* SpotDetailsView.swift in Sources */,
 				E90105551C3B994E002901AC /* GPATableViewCell.m in Sources */,
+				B1C4F6711D572C52000CD0D8 /* BicycleServiceNotificationController.swift in Sources */,
 				E99923AE1CC605E6008963C8 /* WeChatSessionActivity.m in Sources */,
 				E95BDA871C4BF18C00EFC107 /* FeedbackViewController.swift in Sources */,
 				E99923A01CC5FA65008963C8 /* SchemeManager.swift in Sources */,
 				E91E51621D00529400A5BED7 /* DevSessionViewController.swift in Sources */,
 				E92C7F3E1C6EF1E80022857A /* NewsCommentTextView.m in Sources */,
 				E98DF6FB1C5DF5BF003943A4 /* SVWebViewControllerActivity.m in Sources */,
+				B1C4F67C1D572C63000CD0D8 /* PartyAPI.swift in Sources */,
 				E9BA7BB41C5A1550009A4E9A /* ClasstableViewController.swift in Sources */,
-				B1C4F65D1D548377000CD0D8 /* Applicant.swift in Sources */,
+				B1C4F65D1D548377000CD0D8 /* (null) in Sources */,
 				E98F868E1CCA1F9E00252DA8 /* LostFoundDetail.swift in Sources */,
 				E98DF6F21C5DF5BF003943A4 /* wpyWebViewController.m in Sources */,
 				E97336541C71EC9B00ACA06B /* LostFoundPostViewController.swift in Sources */,
 				E9AF6BD31A7CFCE2008B5214 /* FrontEndProcessor.m in Sources */,
 				E98F86901CCA223400252DA8 /* LostFoundItem.swift in Sources */,
-				B1C4F6511D543DD0000CD0D8 /* BicycleServiceNotificationCell.swift in Sources */,
+				B1C4F6511D543DD0000CD0D8 /* (null) in Sources */,
 				E90105541C3B994E002901AC /* GPATableViewController.m in Sources */,
 				E9AF6BCD1A7CFCE2008B5214 /* wpyDeviceStatus.m in Sources */,
 				E91E515F1CFF4F5000A5BED7 /* DevSessionRecordTableViewController.swift in Sources */,
 				E91A9B251C4040E300ADABA0 /* HomeWeatherCell.swift in Sources */,
 				E94B1FD21BF79BF900520536 /* GPAClassData.m in Sources */,
+				B1C4F66D1D572C52000CD0D8 /* BicycleServiceInfoController.swift in Sources */,
 				E98DF69A1C5D044B003943A4 /* MicroservicesTableViewController.swift in Sources */,
 				E94B1FE81BF7AE8800520536 /* SolaSessionManager.m in Sources */,
 				E98DF6921C5CEDE0003943A4 /* BindTjuViewController.swift in Sources */,
 				E9480D5C1CC7D76A00AA707A /* LibraryDataManager.swift in Sources */,
 				E9472BEC1C14879D00EC229C /* NewsContent.m in Sources */,
 				E928084C1D14696F00E4380D /* StudySearchViewController.swift in Sources */,
-				B1C4F6561D543DD0000CD0D8 /* ParkingSpots.swift in Sources */,
+				B1C4F6561D543DD0000CD0D8 /* (null) in Sources */,
 				E9480D601CC7E98700AA707A /* WebAppItem.swift in Sources */,
 				E98ACE241C4039BC0012C762 /* HomeToolsCell.swift in Sources */,
 				E942BC7A1CACCCDE007A956C /* LostFoundTableViewCell.swift in Sources */,
-				B1C4F6611D5584EB000CD0D8 /* PartyAPI.swift in Sources */,
+				B1C4F6611D5584EB000CD0D8 /* (null) in Sources */,
 				E937018A1C5CCE6000C87E84 /* AboutViewController.swift in Sources */,
-				B1C4F6501D543DD0000CD0D8 /* BicycleServiceMapController.swift in Sources */,
+				B1C4F6501D543DD0000CD0D8 /* (null) in Sources */,
+				B1C4F67A1D572C63000CD0D8 /* Applicant.swift in Sources */,
 				E91E515B1CFF421C00A5BED7 /* DevSessionRecorder.swift in Sources */,
 				E961E61D1CDF6C2E003E574F /* DevControlViewController.swift in Sources */,
 				E93701851C5CA97800C87E84 /* LibraryViewController.swift in Sources */,
@@ -1636,18 +1668,19 @@
 				E9B972D01C565DFB001E480E /* AccountManager.m in Sources */,
 				E9BA7BB71C5A1AE1009A4E9A /* ClasstableDataManager.swift in Sources */,
 				E94AC15F1C737B6300C82C4E /* ClassCellView.swift in Sources */,
-				B19A3D1A1D32450500DA061A /* PartyServiceController.swift in Sources */,
 				E94B1FE51BF7AE8800520536 /* NSString+Hashes.m in Sources */,
 				E97336521C71036F00ACA06B /* LostFoundDetailForm.swift in Sources */,
 				E961E6181CDF5FE4003E574F /* ClassData.swift in Sources */,
 				E99923AD1CC605E6008963C8 /* WeChatMomentsActivity.m in Sources */,
-				B1C4F64E1D543DD0000CD0D8 /* BicycleServiceInfoController.swift in Sources */,
+				B1C4F64E1D543DD0000CD0D8 /* (null) in Sources */,
 				E90105701C3B9F4D002901AC /* MainViewController.swift in Sources */,
+				B1C4F6751D572C52000CD0D8 /* ParkingSpots.swift in Sources */,
 				E945C64F1CCFE1AE005B85CE /* LibraryFavoriteTableViewController.swift in Sources */,
-				B1C4F6591D543EB9000CD0D8 /* PartyServiceController.swift in Sources */,
-				B1C4F65F1D548E62000CD0D8 /* Courses.swift in Sources */,
+				B1C4F6591D543EB9000CD0D8 /* (null) in Sources */,
+				B1C4F65F1D548E62000CD0D8 /* (null) in Sources */,
 				E98ACE151C3FFA8F0012C762 /* HomeCarouselCell.swift in Sources */,
 				E9FBD13F1C6EEE760060BF21 /* NewsComment.m in Sources */,
+				B1C4F67B1D572C63000CD0D8 /* Courses.swift in Sources */,
 				E973364E1C70F9CB00ACA06B /* LostFoundDetailViewController.swift in Sources */,
 				E9325F511CC5EB57005FAD8B /* twtAppDelegate.swift in Sources */,
 				E98ACE171C4002610012C762 /* HomeImageTitleView.swift in Sources */,
@@ -1655,17 +1688,18 @@
 				E9FBD1441C6EF0870060BF21 /* NewsCommentViewController.m in Sources */,
 				E976B3691CBF33A90008E268 /* LostFoundViewController.m in Sources */,
 				E90105591C3B994E002901AC /* NewsTableViewController.m in Sources */,
-				B19A3D181D3244F200DA061A /* BicycleServiceController.swift in Sources */,
 				E92808491D14633200E4380D /* StudySearchDataManager.swift in Sources */,
-				B1C4F6541D543DD0000CD0D8 /* BicycleServiceViewController.m in Sources */,
-				B1C4F6521D543DD0000CD0D8 /* BicycleServiceNotificationController.swift in Sources */,
+				B1C4F6541D543DD0000CD0D8 /* (null) in Sources */,
+				B1C4F67D1D572C63000CD0D8 /* PartyServiceController.swift in Sources */,
+				B1C4F6521D543DD0000CD0D8 /* (null) in Sources */,
 				E901055A1C3B994E002901AC /* NewsViewController.m in Sources */,
 				E98DF6F01C5DF5BF003943A4 /* wpyModalWebViewController.m in Sources */,
 				E92597241CA62E1B00D4E812 /* ToolsCollectionViewCell.swift in Sources */,
 				E9E42A441C74558B00C871D6 /* ClassDetailViewController.swift in Sources */,
 				E9F1F8631CD6561000C4F2AA /* UIViewController+Utils.m in Sources */,
 				E95459341CCF403D002B5297 /* LibraryTableViewCell.swift in Sources */,
-				B1C4F65B1D543EF1000CD0D8 /* SpotDetailsView.swift in Sources */,
+				B1C4F6731D572C52000CD0D8 /* BicycleServiceViewController.m in Sources */,
+				B1C4F65B1D543EF1000CD0D8 /* (null) in Sources */,
 				E9AF6BCF1A7CFCE2008B5214 /* data.m in Sources */,
 				E9AF6BDD1A7CFD4D008B5214 /* twtSecretKeys.m in Sources */,
 				E94B1FE91BF7AE8800520536 /* twtSDK.m in Sources */,
@@ -1682,10 +1716,12 @@
 				E98DF6A01C5D211A003943A4 /* WebAppTableViewCell.swift in Sources */,
 				E9D744021BF9AE38005F2EF9 /* main.m in Sources */,
 				E98DF6941C5CEDFF003943A4 /* BindTjuForm.swift in Sources */,
+				B1C4F6701D572C52000CD0D8 /* BicycleServiceNotificationCell.swift in Sources */,
 				E901055B1C3B994E002901AC /* NewsTableViewCell.m in Sources */,
 				E90105581C3B994E002901AC /* NewsContentViewController.m in Sources */,
 				E91A26FF1ABAC21C0080CB6F /* wpyCacheManager.m in Sources */,
 				E973365A1C721E9600ACA06B /* LostFoundTypeTransformer.swift in Sources */,
+				B1C4F66F1D572C52000CD0D8 /* BicycleServiceMapController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
