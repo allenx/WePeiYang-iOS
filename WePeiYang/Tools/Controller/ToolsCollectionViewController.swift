@@ -20,7 +20,9 @@ class ToolsCollectionViewController: UICollectionViewController, UICollectionVie
         (title: "课程表", image: UIImage(named: "classtableBtn")!),
         (title: "图书馆", image: UIImage(named: "libBtn")!),
         (title: "失物招领", image: UIImage(named: "lfBtn")!),
-        (title: "实验室", image: UIImage(named: "msBtn")!)
+        (title: "实验室", image: UIImage(named: "msBtn")!),
+        (title: "自行车", image: UIImage(named: "msBtn")!),
+        (title: "党建" , image: UIImage(named: "partyBtn")!)
     ]
     
     var microserviceController: STPopupController!
@@ -108,6 +110,10 @@ class ToolsCollectionViewController: UICollectionViewController, UICollectionVie
             self.showLostFoundController()
         case 4:
             self.showMicroservicesController()
+        case 5:
+            self.showBicycleServiceController()
+        case 6:
+            self.showPartyServiceController()
         default:
             return
         }
@@ -206,4 +212,15 @@ class ToolsCollectionViewController: UICollectionViewController, UICollectionVie
         microserviceController.presentInViewController(self)
     }
 
+    func showBicycleServiceController() {
+        let bikeVC = BicycleServiceViewController()
+        //隐藏tabbar
+        bikeVC.hidesBottomBarWhenPushed = true;
+        self.navigationController?.showViewController(bikeVC, sender: nil)
+    }
+    
+    func showPartyServiceController() {
+        let partyVC = PartyServiceController()
+        self.navigationController?.showViewController(partyVC, sender: nil)
+    }
 }
